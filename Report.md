@@ -178,7 +178,7 @@ curl -I http://localhost
 
 Missing headers detected.
 
-![Missing Header](images/curl no headers.png)
+![Missing Header](images/curl_no_headers.png)
 
 ---
 
