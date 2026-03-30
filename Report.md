@@ -126,7 +126,7 @@ Payload:
 
 Reads system sensitive file.
 
-![Password File](images/password in browser.png)
+![Password File](images/password_in_browser.png)
 
 ---
 
@@ -136,7 +136,7 @@ php://filter/convert.base64-encode/resource=index.php
 
 Source code disclosure.
 
-![Base 64 code](images/base64 in browser.png)
+![Base 64 code](images/base64_in_browser.png)
 
 ---
 
@@ -146,7 +146,7 @@ Payload:
 
 Remote command execution.
 
-![rfi shell](images/uid=33 output.png)
+![rfi shell](images/uid=33_output.png)
 
 ---
 
@@ -157,7 +157,7 @@ Remote command execution.
 - Request captured
 - Parameters modified
 
-![Login Request](images/login request.png)
+![Login Request](images/login_request.png)
 
 ---
 
@@ -166,7 +166,7 @@ Remote command execution.
 - Brute force performed
 - Valid response identified
 
-![Send to Intruder](images/request send into intruder.png)
+![Send to Intruder](images/request_send_into_intruder.png)
 
 ---
 
@@ -178,14 +178,14 @@ curl -I http://localhost
 
 Missing headers detected.
 
-![Send to Intruder](images/request send into intruder.png)
+![Send to Intruder](images/curl_no_headers.png)
 
 ---
 
 ## securityheaders.com Scan
 Site graded low due to missing headers.
 
-![SecurityHeaders Scan](images/grade D scan.png)
+![SecurityHeaders Scan](images/grade_D_scan.png)
 
 ---
 
@@ -207,7 +207,7 @@ All headers present.
 
 ![Headers Added](images/curl_header_adder.png)
 
-![All Headers](images/curl all headers.png)
+![All Headers](images/curl_all_headers.png)
 
 ---
 
