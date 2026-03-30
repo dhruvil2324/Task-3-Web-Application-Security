@@ -178,7 +178,7 @@ curl -I http://localhost
 
 Missing headers detected.
 
-![Send to Intruder](images/curl_no_headers.png)
+![Missing Header](images/curl no headers.png)
 
 ---
 
@@ -206,6 +206,7 @@ curl -I http://localhost
 All headers present.
 
 ![Headers Added](images/curl_header_adder.png)
+
 
 ![All Headers](images/curl_all_headers.png)
 
